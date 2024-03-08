@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Script prints the content of 'etc/passwd'
+# Shows username, user id and user home directory path only.
+
+file="/etc/passwd"
+while IFS= read -r strip
+do
+    echo "$strip" | cut -d":" -f1,3,6
+done < "$file"
