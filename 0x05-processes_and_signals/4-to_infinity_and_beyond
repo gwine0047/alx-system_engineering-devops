@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# displays a phrase constantly while
+#+ sleeping for 2 at each display
+
+while true
+do
+		echo "To infinity and beyond"
+		sleep 2
+done
