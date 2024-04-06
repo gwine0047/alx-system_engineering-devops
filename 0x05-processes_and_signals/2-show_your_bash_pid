@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-#Togeher with the process name with bash, displays
-#+ PID
+# Displays a list of processes running currently
 
-pgrep bash -l
+ps -aux | grep bash
