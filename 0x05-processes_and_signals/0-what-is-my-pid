@@ -1,4 +1,4 @@
-#!/bin/usr/bash
+#!/bin/usr/env bash
 # displays systems pid
 
 echo $$
